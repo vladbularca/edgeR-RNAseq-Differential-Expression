@@ -1,3 +1,5 @@
+#Loading Packages
+
 if (!require("BiocManager", quietly = TRUE)) install.packages("BioCManager")
 BiocManager::install("Rsubread") 
 library(Rsubread)
@@ -8,8 +10,11 @@ library(dplyr)
 library(gridExtra)
 
 
+# Reading in the gene counts table produced using STAR
 
 counts <- read.table("gene_counts.txt", header = TRUE)
+
+# Updating sample names based on the stages of development
 
 colnames(counts) [7] = "MB1"
 colnames(counts) [8] = "MB2"
