@@ -8,7 +8,7 @@ This project aims to identify differentially expressed genes (DEGs) between  dev
 
 - Identify DEGs using edgeR 
 - Implement quality control and preprocessing of raw sequence data
-- Perform statistical analysis to determinesignificant gene expression changes
+- Perform statistical analysis to determine significant gene expression changes
 - Visualize and interpret results 
 
 ## Methods
@@ -32,7 +32,6 @@ Tools Used:
 - Normalize count data
 - Estimate dispersion and fit statistical models in edgeR
 
-
 ## Results
 
 - A comprehensive list of genes that were found to be differentially expressed across all pairwise comparisons was identified. Top 10 signficant DEGs for each pairwise comparison were also determined, highlighting stage specific expression patterns. 
@@ -41,10 +40,10 @@ Tools Used:
 
 ## Repository Structure 
 
-```text ├── featureGenecount.txt/ # Bash Output Feature Count data 
-        ├── DGE_analysis.sh # Bash Script file
-        ├── Visualizations.R # R Script file
-        ├── Results/ # Output files including DEG lists
-        ├── Figures/ # Plots (volcano, smear, venn diagrams)
+```text ├── gene_counts.txt #  Output of featureCounts 
+        ├── STAR_alignment.sh # Bash Script file
+        ├── *genes.txt/ # Output files with DEGs
         ├── README.md # Project documentation
-        ├── Assignment2.pdf # Full assignment write-up ```
+        ├── Assignment2.pdf # Full assignment write-up
+        ├── edgeR_analysis.R # R Script for edgeR analysis
+ ```
