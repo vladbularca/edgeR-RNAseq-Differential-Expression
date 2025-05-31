@@ -13,23 +13,24 @@ This project aims to identify differentially expressed genes (DEGs) between  dev
 
 ## Methods
 
-Software and Tools Used:
+Tools Used:
 
--STAR: Read alignment to reference genome 
--SAMtools: Processing and manipulation of alignment files
--Subread (featureCounts): Gene expression quantification 
--edgeR (RStudio): Differential expression analysis and statistical modeling 
+- STAR: Read alignment to reference genome 
+- SAMtools: Processing and manipulation of alignment files
+- Subread (featureCounts): Gene expression quantification 
+- edgeR (RStudio): Differential expression analysis and statistical modeling 
 
 ## Workflow Overview:
 
--Data Preparation: Retrieve RNA-Seq data and preprocess FASTQ files
--Sequence Alignment: Align reads to the reference genome with STAR, followed by BAM file processing using SAMtools
--Gene Quantification: Use featureCounts to generate a count matrix for differential expression analysis
+- Data Preparation: Retrieve RNA-Seq data and preprocess FASTQ files
+- Sequence Alignment: Align reads to the reference genome with STAR, followed by BAM file processing using SAMtools
+- Gene Quantification: Use featureCounts to generate a count matrix for differential expression analysis
 
-Differential Expression Analysis:
-Filter low-expression genes
-Normalize count data
-Estimate dispersion and fit statistical models in edgeR
+### Differential Expression Analysis:
+- MDS for intial clustering
+- Filter low-expression genes
+- Normalize count data
+- Estimate dispersion and fit statistical models in edgeR
 
 Visualization:
 Volcano Plots: Show significant DEGs based on log fold change and p-values.
