@@ -39,4 +39,10 @@ Tools Used:
 - Top DEGs were identified with log fold change (logFC) and statistical significance (FDR)
 - Key findings highlight core genes involved in velum development at different stages
 
-pre> ```text ├── featureGenecount.txt/ # Bash Output Feature Count data ├── DGE_analysis.sh # Bash Script file ├── Visualizations.R # R Script file ├── Results/ # Output files including DEG lists ├── Figures/ # Plots (volcano, smear, venn diagrams) ├── README.md # Project documentation ├── Assignment2.pdf # Full assignment write-up ``` </pre>
+```text ├── featureGenecount.txt/ # Bash Output Feature Count data 
+        ├── DGE_analysis.sh # Bash Script file
+        ├── Visualizations.R # R Script file
+        ├── Results/ # Output files including DEG lists
+        ├── Figures/ # Plots (volcano, smear, venn diagrams)
+        ├── README.md # Project documentation
+        ├── Assignment2.pdf # Full assignment write-up ```
