@@ -33,11 +33,13 @@ Tools Used:
 - Estimate dispersion and fit statistical models in edgeR
 
 
-## Results:
+## Results
 
 - A comprehensive list of genes that were found to be differentially expressed across all pairwise comparisons was identified. Top 10 signficant DEGs for each pairwise comparison were also determined, highlighting stage specific expression patterns. 
 - Top DEGs were identified with log fold change (logFC) and statistical significance (FDR)
 - Key findings highlight core genes involved in velum development at different stages
+
+## Repository Structure 
 
 ```text ├── featureGenecount.txt/ # Bash Output Feature Count data 
         ├── DGE_analysis.sh # Bash Script file
