@@ -32,7 +32,7 @@ Tools Used:
 - Normalize count data
 - Estimate dispersion and fit statistical models in edgeR
 
-Visualization:
+### Visualization:
 Volcano Plots: Show significant DEGs based on log fold change and p-values.
 Venn Diagrams: Display overlap of DEGs between developmental stages.
 Smear Plots: Illustrate distribution of gene expression changes.
